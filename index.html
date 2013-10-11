@@ -1,9 +1,91 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Codeshifter</title>
+  <meta charset="UTF-8">
+  <title>Codeshifter</title>
+
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+  <link rel="stylesheet" href="css/nav.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  
+    <script type="text/javascript"> <!--
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+    // --> </script>  
+
 </head>
 <body>
+
+  <div id="wrapper">
+    <ul>
+      <li><a href="#"><i class="icon-list-alt"></i>
+      <div>
+         Vision
+      </div>
+      </a></li>
+      <li><a href="#"><i class="icon-calendar"></i>
+      <div>
+         Ziel
+      </div>
+      </a></li>
+      <li><a href="#"><i class="icon-globe"></i>
+      <div>
+         Werte
+      </div>
+      </a></li>
+      <li><a href="#"><i class="icon-picture"></i>
+      <div>
+         Marketing
+      </div>
+      </a></li>    
+      <li><a href="#"><i class="icon-bullseye"></i>
+      <div>
+         Ergebnis
+      </div>
+      </a></li>
+      <li><a href="#"><i class="icon-list-alt"></i>
+      <div>
+         Akkreditierung
+      </div>
+      </a></li>
+    </ul>
+  </div>
+
+  <div id="main">
+    <div class="company">Codeshifter</div>
+     <br> <br>
+    <p></p>
+    <a href="javascript:linkTo_UnCryptMailto('nbjmup;ifmqAdpeftijgufs/ef');" class="btn btn-large btn-success"><span class="icon-envelope"></span> schreib uns eine Email</a>
+  </div>
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+  <script type="text/javascript">
+    $.backstretch("img/converse-fields.jpg");
+  </script>
+
 </body>
+
 </html>
